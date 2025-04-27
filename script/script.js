@@ -28,7 +28,7 @@ const el = {
 
 class Heart extends mojs.CustomShape {
   getShape() {
-    return '<image href="assets/strawberry.png" x="0" y="0" width="100" height="100" />';
+    return '<image href="assets/strawberry.png" x="0" y="-5" width="100" height="100" />';
   }
   getLength() {
     return 200;
